@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Box, Stack, Typography } from '@mui/material';
+import React, {useState, useEffect} from 'react';
+import {Box, Stack, Typography} from '@mui/material';
 
-import { fetchFromAPI } from "../utils/fetchFromAPI";
-import { Videos, Sidebar } from "./";
+import {fetchFromAPI} from "../utils/fetchFromAPI";
+import {Videos, Sidebar} from "./";
 
 const Feed = () => {
     const [selectedCategory, setSelectedCategory] = useState('New');
@@ -26,7 +26,7 @@ const Feed = () => {
                 <Typography variant="h4" fontWeight="bold" mb={2} sx={{color: '#fff'}}>
                     {selectedCategory} <span style={{color: '#F31503'}}> videos </span>
                 </Typography>
-                <Videos videos={videos} />
+                <Videos videos={videos}/>
             </Box>
         </Stack>
     );
