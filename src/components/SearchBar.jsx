@@ -8,7 +8,7 @@ const SearchBar = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const navigate = useNavigate();
 
-    const handleSubmit = (e) => {
+    const onhandleSubmit = (e) => {
         e.preventDefault();
 
         if (searchTerm) {
@@ -21,7 +21,7 @@ const SearchBar = () => {
     return (
         <Paper
             component="form"
-            onSubmit={handleSubmit}
+            onSubmit={onhandleSubmit}
             sx={{
                 borderRadius: 20,
                 border: '1px solid #e3e3e3',
