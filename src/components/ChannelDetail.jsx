@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 import {Box} from '@mui/material'
 import {Videos, ChannelCard} from './';
@@ -8,7 +8,7 @@ const ChannelDetail = () => {
     const [channelDetail, setChannelDetail] = useState();
     const [videos, setVideos] = useState([]);
 
-    const {id} = useParams();
+    const { id } = useParams();
 
     useEffect(() => {
         const fetchResults = async () => {
