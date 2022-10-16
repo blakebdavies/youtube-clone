@@ -1,35 +1,22 @@
-# YouTube Clone Project 
+# YouTube Clone Project
+ <p> This is a fully-functional, responsive React JS application based on YouTube consisting of video sections, custom categories, channel pages, where you can play videos straight from your search and explore related videos!</p>
 <p>
   <a target="_blank" rel="noopener noreferrer" href="https://darling-mousse-f9435d.netlify.app/">Click here for live demo</a>
 </p>
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Reflection 
+### Concepts & Technologies
+ <ul>
+  <li>RapidAPI YouTube v3 Integration</li>
+  <li>API Testing</li>
+  <li>Material UI 5</li>
+  <li>React functional components and reusability</li>
+  <li>Responsive Design implementation</li>
+  </ul>
+  <h3> Installation and Set-up Instructions</h3>
+  <p>Clone down this repository you will need <code>node</code> and <code>npm</code> installed globally on your machine.</p>
+ <h5>Installation</h5>
+ <p><code>npm install</code></p>
+ <h5>To Start Server</h5>
+ <p><code>npm start</code></p>
